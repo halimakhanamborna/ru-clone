@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>University of Rajshahi - Facebook</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+    }
+
+    .top-bar {
+      background: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .top-bar input {
+      margin-right: 10px;
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .top-bar button {
+      background: #1877f2;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .top-bar a {
+      color: #1877f2;
+      text-decoration: none;
+      margin-left: 10px;
+      font-size: 14px;
+    }
+
+    .cover {
+      width: 100%;
+      height: 280px;
+      background: url('admin-building.jpg') no-repeat center center;
+      background-size: cover;
+    }
+
+    .profile-section {
+      background: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .profile-section img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    .profile-text h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .profile-text p {
+      margin: 5px 0;
+      color: #65676b;
+    }
+
+    .tabs {
+      background: white;
+      display: flex;
+      gap: 20px;
+      padding: 10px 20px;
+      border-top: 1px solid #ddd;
+      font-size: 15px;
+    }
+
+    .tabs div {
+      cursor: pointer;
+      padding: 8px 0;
+    }
+
+    .tabs .active {
+      border-bottom: 3px solid #1877f2;
+      font-weight: bold;
+      color: #1877f2;
+    }
+
+    .main {
+      display: flex;
+      padding: 20px;
+    }
+
+    .left-panel {
+      width: 60%;
+    }
+
+    .box {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    }
+
+    .footer-login {
+      text-align: center;
+      background: white;
+      padding: 20px;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+    .footer-login button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      margin: 0 5px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .blue {
+      background: #1877f2;
+    }
+
+    .green {
+      background: #42b72a;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div><strong style="color:#1877f2; font-size: 22px;">facebook</strong></div>
+    <div>
+      <input type="text" placeholder="Email or phone">
+      <input type="password" placeholder="Password">
+      <button>Log in</button>
+      <a href="#">Forgotten account?</a>
+    </div>
+  </div>
+
+  <div class="cover"></div>
+
+  <div class="profile-section">
+    <img src="images.png" alt="RU Logo">
+    <div class="profile-text">
+      <h1>University of Rajshahi <span style="color:#1877f2;">✔</span></h1>
+      <p>122K likes · 197K followers</p>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <div class="active">Posts</div>
+    <div>About</div>
+    <div>Photos</div>
+    <div>Videos</div>
+  </div>
+
+  <div class="main">
+    <div class="left-panel">
+      <div class="box">
+        <h3>Intro</h3>
+        <p>This is the official Facebook page of the University of Rajshahi run by the University Administration.</p>
+        <p><strong>Page:</strong> University</p>
+        <p><strong>Address:</strong> Dhaka–Rajshahi Highway, Rajshahi, Bangladesh</p>
+        <p><strong>Phone:</strong> 0721-711025</p>
+        <p><strong>Email:</strong> rupr@ru.ac.bd</p>
+      </div>
+      <div class="box">
+        <strong>University of Rajshahi</strong><br>
+        <small>2h ·</small>
+        <p>[Post content here — e.g., notice or announcement]</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-login">
+    <p>Log in or sign up for Facebook to connect with friends, family and people you know.</p>
+    <button class="blue">Log in</button>
+    <button class="green">Create new account</button>
+  </div>
+
+</body>
+</html>
+
+
+

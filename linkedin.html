@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join LinkedIn</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f3f2ef;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 100px);
+    }
+
+    .form-box {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 40px;
+      width: 360px;
+      text-align: left;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .small-text {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .small-text a {
+      color: #0a66c2;
+      text-decoration: none;
+    }
+
+    .agree-button {
+      width: 100%;
+      padding: 12px;
+      background-color: #0a66c2;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .divider {
+      text-align: center;
+      margin: 20px 0;
+      color: #666;
+    }
+
+    .google-btn {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #999;
+      border-radius: 25px;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .google-btn img {
+      width: 20px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+
+    .footer a {
+      color: #0a66c2;
+      text-decoration: none;
+    }
+
+    .bottom-bar {
+      text-align: center;
+      font-size: 13px;
+      color: #666;
+      padding: 30px 20px 10px;
+    }
+
+    .bottom-bar a {
+      margin: 0 8px;
+      color: #666;
+      text-decoration: none;
+    }
+
+    .bottom-bar a:hover {
+      text-decoration: underline;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #0a66c2;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .logo span {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <span>Linked</span><span style="color:#0a66c2">in</span>
+  </div>
+
+  <div class="container">
+    <div class="form-box">
+      <h1>Join LinkedIn</h1>
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password (6+ characters)">
+      <div class="small-text">
+        By clicking Agree & Join, you agree to the LinkedIn
+        <a href="#">User Agreement</a>, <a href="#">Privacy Policy</a>, and
+        <a href="#">Cookie Policy</a>.
+      </div>
+      <button class="agree-button">Agree & Join</button>
+      <div class="divider">or</div>
+      <button class="google-btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" alt="Google Logo">
+        Continue with Google
+      </button>
+      <div class="footer">
+        Already on LinkedIn?
+        <a href="#">Sign in</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-bar">
+    LinkedIn © 2025 · 
+    <a href="#">About</a>
+    <a href="#">Accessibility</a>
+    <a href="#">User Agreement</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Cookie Policy</a>
+    <a href="#">Copyright Policy</a>
+    <a href="#">Brand Policy</a>
+    <a href="#">Community Guidelines</a>
+    <a href="#">Language</a>
+  </div>
+
+</body>
+</html>

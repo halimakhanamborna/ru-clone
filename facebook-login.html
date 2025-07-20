@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook Login</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: rgba(240,242,245,1);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .login-container {
+      background-color: white;
+      width: 400px;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .login-container img {
+      width: 80px;
+    }
+    .login-container h2 {
+      margin: 10px 0 20px;
+      font-size: 20px;
+    }
+    .login-container input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      color: white;
+      background-color: #1877f2;
+      border: none;
+      border-radius: 6px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .login-container button.green {
+      background-color: #42b72a;
+    }
+    .login-container a {
+      display: block;
+      margin-top: 10px;
+      color: #1877f2;
+      text-decoration: none;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <img src="https://upload.wikimedia.org/wikipedia/en/6/63/University_of_Rajshahi_monogram.svg" alt="RU Logo">
+    <h2>See more from University of Rajshahi | Rajshahi</h2>
+    <input type="text" placeholder="Email address or phone number">
+    <input type="password" placeholder="Password">
+    <button>Log in</button>
+    <a href="#">Forgotten password?</a>
+    <hr>
+    <button class="green">Create new account</button>
+  </div>
+</body>
+</html>
